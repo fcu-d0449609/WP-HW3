@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charest = "utf-8">
+	<title>溫度換算</title>
+	<script type = "text/javascript">
+	
+	   var firstNumber; 
+	   var n1;
+	   var n2;
+       
+	   function ctof( x ){
+	   return (x*9/5)+32}
+		   
+	   firstNumber = window.prompt("輸入攝氏溫度");
+	   
+	   
+	   n1 = parseInt(firstNumber);
+	   
+	   document.writeln("<h1> 攝氏溫度為 : "+firstNumber+"</h1>");
+	   document.writeln("<h1> 華氏溫度為 : "+ctof(n1)+"</h1>");
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
